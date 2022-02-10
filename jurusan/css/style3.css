@@ -1,0 +1,97 @@
+body {
+    background-image: url(../img/background_body.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(37, 40, 71);
+    background-size: contain;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    opacity: 50%;
+  }
+  
+  .box {
+    position: absolute;
+    width: 750px;
+    height: 600px;
+    left: 600px;
+    top: 990px;
+    background: linear-gradient(90deg, #b1badf 5.3%, #615fb6 100%);
+  }
+  
+  .box p {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 120px;
+  }
+  
+  .ilustrasi {
+    position: absolute;
+    width: 747px;
+    height: 565px;
+    left: 151px;
+    top: 1015px;
+    background: #d3d8ee;
+  }
+  
+  .ilustrasi img {
+    margin-top: 60px;
+  }
+  
+  .fasilitas {
+    margin-top: 1600px;
+    margin-left: 100px;
+  }
+  
+  .fasilitas h2{
+    color: white;
+    font-size: 35px;
+    margin-left: 520px;
+    margin-top: -350px;
+  }
+  
+  .fasilitas-point{
+    color: white;
+    font-size: 20px;
+    margin-left: 620px;
+  }
+
+  .perhotelan{
+    margin-top: 400px;
+    margin-left:800px;
+  }
+
+  .perhotelan h2{
+    color: white;
+    font-size: 35px;
+    margin-top: -330px;
+    margin-left: -700px;
+  }
+
+  .perhotelan p{
+    color: white;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: -700px;
+  }

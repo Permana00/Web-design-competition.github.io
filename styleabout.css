@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: url(./img/bg.jpg);
+  background-repeat: no-repeat;
+  background-color: rgb(37, 40, 71);
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  opacity: 50%;
+}
+
+/* jurusan */
+#jurusan h1 {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 3px solid;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 30px;
+}
+
+.boxitem {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.boxitem h2 {
+  text-align: center;
+  padding: 50px;
+  border-radius: 50%;
+  background-color: skyblue;
+}
+
+.item p {
+  text-align: center;
+  width: 300px;
+  margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+  height: 50px;
+  background: #a7a6dc;
+}
